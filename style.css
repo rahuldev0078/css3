@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed
+    margin-left: 550px;
+}
+.button{
+    left: 300px;
+    margin-left: 300px;
+    position: absolute;
+    top: 300px;
+  }
+  
+  
+button{
+    border: none;
+    padding: 50px 50px;
+    color: rgb(15, 9, 9);
+    display:flex;
+    border-radius: 50%;
+    transition: 0.4s;
+    
+    
+  }
+  .btn:hover{
+    color: #0f0909;
+    background-color: rgb(218, 33, 33);
+    border: 3px solid #0b0101fd;
+    
+  }
+  
+  
+  
